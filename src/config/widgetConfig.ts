@@ -4,6 +4,7 @@ import type { DContextProvider } from '@dynamic-framework/ui-react';
 import liquidParser from '../utils/liquidParser';
 
 export const SITE_LANG = liquidParser.parse('{{site.language}}');
+export const USER_NAME = liquidParser.parse('{{user.first_name}}');
 
 export const VARS_CURRENCY = {
   symbol: liquidParser.parse('{{vars.currency-symbol}}'),
@@ -19,4 +20,7 @@ export const CONTEXT_CONFIG = {
 
 export const SCREENS = {
   sendOtp: 'otp',
+  privacyPolicy: 'privacy',
+  regulationDynamic: 'regulation',
+  documentSign: 'sign',
 };

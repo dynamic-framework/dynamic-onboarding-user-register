@@ -4,6 +4,9 @@
     "language": "en",
     "url": "https://un.modyo.cloud/testing"
   },
+  "user": {
+    "first_name": "Eduard"
+  },
   "vars": {
     "currency-symbol": "$",
     "currency-precision": 2,

@@ -4,9 +4,15 @@ import { CONTEXT_CONFIG, SCREENS } from './config/widgetConfig';
 import { useAppSelector } from './store/hooks';
 import { getView } from './store/selectors';
 import SendOTP from './components/SendOTP';
+import RegulationDynamic from './components/documents/RegulationDynamic';
+import PrivacyPolicy from './components/documents/PrivacyPolicy';
+import DocumentSign from './components/DocumentSign';
 
 const VIEW_STEP = {
   [SCREENS.sendOtp]: SendOTP,
+  [SCREENS.documentSign]: DocumentSign,
+  [SCREENS.privacyPolicy]: PrivacyPolicy,
+  [SCREENS.regulationDynamic]: RegulationDynamic,
 };
 
 export default function App() {

@@ -8,6 +8,23 @@
     "resend": "Didn't you get any code? resend in {time}"
   },
   "actions": {
-    "continue": "Continue"
+    "continue": "Continue",
+    "back": "Go back"
+  },
+  "sign": {
+    "title": "{user}, let's look at the legal part first.",
+    "subtitle": "It is true that many do not read this, but we will briefly explain what the following requirements are about",
+    "privacy": "Notice of Privacy",
+    "terms": "Terms and Conditions",
+    "checkboxLabel": "I have read and accepted the legal documents"
+  },
+  "document": {
+    "count": "{current} de {total} documentos",
+    "alert": {
+      "title": "Summary of the Terms and conditions of use of the current account",
+      "subtitle": "It is a current account in pesos. The opening and maintenance have no cost"
+    },
+    "privacyTitle": "Privacy Policy",
+    "regulationTitle": "Regulation of Dynamic Bank and current account"
   }
 }

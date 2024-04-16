@@ -7,3 +7,13 @@ export const getView = createDraftSafeSelector(
   getState,
   (widget) => widget.view,
 );
+
+export const getPrivacyDocument = createDraftSafeSelector(
+  getState,
+  (widget) => widget.privacyDocument,
+);
+
+export const getRegulationDocument = createDraftSafeSelector(
+  getState,
+  (widget) => widget.regulationDocument,
+);
