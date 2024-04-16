@@ -16,3 +16,7 @@ export const CONTEXT_CONFIG = {
   language: SITE_LANG,
   currency: VARS_CURRENCY,
 } satisfies Partial<ComponentProps<typeof DContextProvider>>;
+
+export const SCREENS = {
+  sendOtp: 'otp',
+};

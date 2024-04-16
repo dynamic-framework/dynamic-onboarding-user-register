@@ -1,3 +1,10 @@
 {
-  "title": "Bienvenido a Dynamic Framework + React"
+  "otp": {
+    "title": "Enter the 6 digit code",
+    "sent": "We have sent an SMS with the verification code to the number:",
+    "sentNumber": "We send it to {number}",
+    "editNumber": "Edit number",
+    "inputHint": "Enter the code you received on your cell phone",
+    "resend": "Didn't you get any code? resend in {time}"
+  }
 }
