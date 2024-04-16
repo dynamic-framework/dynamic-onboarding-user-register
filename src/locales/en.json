@@ -26,5 +26,11 @@
     },
     "privacyTitle": "Privacy Policy",
     "regulationTitle": "Regulation of Dynamic Bank and current account"
+  },
+  "milestone": {
+    "loadTitle": "We are creating your user...",
+    "loadSubtitle": "{user}, this could take a few seconds.",
+    "completeTitle": "{user}! We have successfully created your user",
+    "completeSubtitle": "We're glad you're here, now let's continue"
   }
 }

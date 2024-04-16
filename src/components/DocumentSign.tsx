@@ -56,7 +56,7 @@ export default function DocumentSign() {
       <DButton
         className="mt-8"
         text={t('actions.continue')}
-        onClick={() => navigateTo(SCREENS.privacyPolicy)}
+        onClick={() => navigateTo(SCREENS.loadingMilestone)}
       />
     </div>
   );

@@ -7,12 +7,16 @@ import SendOTP from './components/SendOTP';
 import RegulationDynamic from './components/documents/RegulationDynamic';
 import PrivacyPolicy from './components/documents/PrivacyPolicy';
 import DocumentSign from './components/DocumentSign';
+import LoadingMilestone from './components/LoadingMilestone';
+import CreatedMilestone from './components/CreatedMilestone';
 
 const VIEW_STEP = {
   [SCREENS.sendOtp]: SendOTP,
   [SCREENS.documentSign]: DocumentSign,
   [SCREENS.privacyPolicy]: PrivacyPolicy,
   [SCREENS.regulationDynamic]: RegulationDynamic,
+  [SCREENS.loadingMilestone]: LoadingMilestone,
+  [SCREENS.createdMilestone]: CreatedMilestone,
 };
 
 export default function App() {

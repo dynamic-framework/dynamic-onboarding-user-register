@@ -13,6 +13,9 @@ export const VARS_CURRENCY = {
   decimal: liquidParser.parse('{{vars.currency-decimal}}'),
 };
 
+export const SITE_URL = liquidParser.parse('{{site.url}}');
+export const IDENTITY_VALIDATION_PATH = liquidParser.parse('{{vars.identity-validation-path}}');
+
 export const CONTEXT_CONFIG = {
   language: SITE_LANG,
   currency: VARS_CURRENCY,
@@ -23,4 +26,6 @@ export const SCREENS = {
   privacyPolicy: 'privacy',
   regulationDynamic: 'regulation',
   documentSign: 'sign',
+  loadingMilestone: 'loadingMilestone',
+  createdMilestone: 'createdMilestone',
 };
