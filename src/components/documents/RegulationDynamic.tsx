@@ -96,7 +96,7 @@ export default function RegulationDynamic() {
 
       </section>
       <DButton
-        text="Estoy de acuerdo"
+        text={t('actions.understand')}
         onClick={handleAccept}
       />
     </div>

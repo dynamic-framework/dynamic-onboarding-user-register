@@ -9,7 +9,8 @@
   },
   "actions": {
     "continue": "Continue",
-    "back": "Go back"
+    "back": "Go back",
+    "understand": "Understand"
   },
   "sign": {
     "title": "{user}, let's look at the legal part first.",

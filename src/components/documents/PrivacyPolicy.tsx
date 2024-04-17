@@ -96,7 +96,7 @@ export default function PrivacyPolicy() {
 
       </section>
       <DButton
-        text="Estoy de acuerdo"
+        text={t('actions.understand')}
         onClick={handleAccept}
       />
     </div>
