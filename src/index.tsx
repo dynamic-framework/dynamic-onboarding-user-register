@@ -2,9 +2,10 @@ import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import { DContextProvider } from '@dynamic-framework/ui-react';
 import { Provider } from 'react-redux';
+import './config/liquidConfig';
+
 import store from './store/store';
 
-import './config/liquidConfig';
 import './config/i18nConfig';
 
 import App from './App';
