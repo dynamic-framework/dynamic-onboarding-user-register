@@ -4,10 +4,12 @@ import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
 import useWidgetUtils from '../hooks/useWidgetUtils';
 import { SCREENS } from '../config/widgetConfig';
+import CountdownTimer from './CountdownTimer';
 
 export default function SendOTP() {
   const { t } = useTranslation();
   const { navigateTo } = useWidgetUtils();
+
   return (
     <div className="d-flex flex-column gap-2 gap-md-6">
       <h1 className="h4 d-none d-md-block">
@@ -36,8 +38,7 @@ export default function SendOTP() {
           characters={6}
           hint={t('otp.inputHint')}
         />
-        <p className="small text-gray-700 mb-4 d-none d-md-block">{t('otp.resend')}</p>
-        <a className="text-secondary mb-4 d-block d-md-none" href="#">{t('otp.mobileResend')}</a>
+        <CountdownTimer />
       </div>
       <DButton
         text={t('actions.continue')}
