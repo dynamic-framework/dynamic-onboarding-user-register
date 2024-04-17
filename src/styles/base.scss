@@ -13,9 +13,6 @@ body {
   --#{$prefix}quick-action-button-line1-font-size: 1rem;
   --#{$prefix}quick-action-button-representative-image-size: var(--#{$prefix}ref-spacer-6);
 
-  @media screen and (min-width: 768px) {
-    --#{$prefix}quick-action-button-padding: var(--bs-ref-spacer-6);
-  }
 }
 
 .icon-success{
@@ -27,4 +24,17 @@ body {
   --#{$prefix}btn-hover-bg: transparent;
   --#{$prefix}btn-active-bg: transparent;
   padding: 0;
+}
+
+.otp-input{
+  --#{$prefix}input-pin-form-control-size: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .document-button{
+    --#{$prefix}quick-action-button-padding: var(--bs-ref-spacer-6);
+  }
+  .otp-input{
+    --#{$prefix}input-pin-form-control-size: 4rem;
+  }
 }

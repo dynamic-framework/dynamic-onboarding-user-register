@@ -1,11 +1,15 @@
 {
   "otp": {
     "title": "Enter the 6 digit code",
+    "mobileTitle": "Please enter your security code",
     "sent": "We have sent an SMS with the verification code to the number:",
+    "mobileSent": "We've sent a 6-digit security code via SMS to the following number:",
     "sentNumber": "We send it to {number}",
     "editNumber": "Edit number",
+    "mobileEditNumber": "Edit phone number",
     "inputHint": "Enter the code you received on your cell phone",
-    "resend": "Didn't you get any code? resend in {time}"
+    "resend": "Didn't you get any code? resend in {time}",
+    "mobileResend": "I didn’t receive a verification code"
   },
   "actions": {
     "continue": "Continue",
