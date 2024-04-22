@@ -2,6 +2,7 @@
 import { DButton, DInputPin } from '@dynamic-framework/ui-react';
 import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
+
 import useWidgetUtils from '../hooks/useWidgetUtils';
 import { SCREENS } from '../config/widgetConfig';
 import CountdownTimer from './CountdownTimer';
@@ -43,7 +44,7 @@ export default function SendOTP() {
       <DButton
         text={t('actions.continue')}
         className="align-self-start"
-        onClick={() => { navigateTo(SCREENS.documentSign); }}
+        onClick={() => navigateTo(SCREENS.documentSign)}
       />
     </div>
   );

@@ -1,8 +1,5 @@
 @import "@dynamic-framework/ui-react/src/style/abstracts/+import";
 
-body {
-  background-color: rgb(var(--#{$prefix}secondary-soft-rgb));
-}
 .short-view {
   max-width: 500px;
 }
@@ -15,7 +12,7 @@ body {
 
 }
 
-.icon-success{
+.icon-success {
   --#{$prefix}quick-action-button-action-icon-color: var(--#{$prefix}success);
   --#{$prefix}quick-action-button-active-action-icon-color: var(--#{$prefix}success);
 }
@@ -26,13 +23,13 @@ body {
   padding: 0;
 }
 
-.otp-input{
+.otp-input {
   --#{$prefix}input-pin-form-control-size: 3rem;
 }
 
-@media screen and (min-width: 768px) {
+@include media-breakpoint-up(md) {
   .document-button{
-    --#{$prefix}quick-action-button-padding: var(--bs-ref-spacer-6);
+    --#{$prefix}quick-action-button-padding: var(--#{$prefix}ref-spacer-6);
   }
   .otp-input{
     --#{$prefix}input-pin-form-control-size: 4rem;

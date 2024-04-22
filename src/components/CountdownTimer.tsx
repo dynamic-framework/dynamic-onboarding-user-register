@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 export default function CountdownTimer() {
   const [seconds, setSeconds] = useState(90);
   const { t } = useTranslation();
+
   useEffect(() => {
     const interval = setInterval(() => {
       if (seconds > 0) {

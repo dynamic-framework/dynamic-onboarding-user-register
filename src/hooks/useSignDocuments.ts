@@ -1,4 +1,5 @@
 import { useCallback } from 'react';
+
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { getPrivacyDocument, getRegulationDocument } from '../store/selectors';
 import { setPrivacyPolicy, setRegulationDocument } from '../store/slice';

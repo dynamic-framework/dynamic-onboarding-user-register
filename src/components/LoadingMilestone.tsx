@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+
 import { ReactComponent as LoadingMilestoneLogo } from '../assets/loadingMilestone.svg';
 import useWidgetUtils from '../hooks/useWidgetUtils';
 import { SCREENS, USER_NAME } from '../config/widgetConfig';

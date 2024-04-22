@@ -1,14 +1,16 @@
 import { useDContext } from '@dynamic-framework/ui-react';
 import { useEffect, useMemo } from 'react';
-import { CONTEXT_CONFIG, SCREENS } from './config/widgetConfig';
-import { useAppSelector } from './store/hooks';
-import { getView } from './store/selectors';
-import SendOTP from './components/SendOTP';
+
 import RegulationDynamic from './components/documents/RegulationDynamic';
 import PrivacyPolicy from './components/documents/PrivacyPolicy';
 import DocumentSign from './components/DocumentSign';
 import LoadingMilestone from './components/LoadingMilestone';
 import CreatedMilestone from './components/CreatedMilestone';
+import SendOTP from './components/SendOTP';
+
+import { CONTEXT_CONFIG, SCREENS } from './config/widgetConfig';
+import { useAppSelector } from './store/hooks';
+import { getView } from './store/selectors';
 
 const VIEW_STEP = {
   [SCREENS.sendOtp]: SendOTP,
@@ -33,7 +35,7 @@ export default function App() {
   }, [setContext]);
 
   return (
-    <div className="container d-flex flex-column container align-items-center">
+    <div className="d-flex flex-column align-items-center">
       <CurrentView />
     </div>
   );
