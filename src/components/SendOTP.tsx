@@ -1,8 +1,10 @@
+/* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { DButton, DInputPin } from '@dynamic-framework/ui-react';
 import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
 
+import { useState } from 'react';
 import useWidgetUtils from '../hooks/useWidgetUtils';
 import { SCREENS } from '../config/widgetConfig';
 import CountdownTimer from './CountdownTimer';
@@ -10,6 +12,7 @@ import CountdownTimer from './CountdownTimer';
 export default function SendOTP() {
   const { t } = useTranslation();
   const { navigateTo } = useWidgetUtils();
+  const [otpValue, setOtpValue] = useState('');
 
   return (
     <div className="d-flex flex-column gap-2 gap-md-6">
@@ -38,6 +41,8 @@ export default function SendOTP() {
           id="otp"
           characters={6}
           hint={t('otp.inputHint')}
+          onChange={(value) => setOtpValue(value)}
+          {...otpValue.length === 6 && { valid: true }}
         />
         <CountdownTimer />
       </div>
