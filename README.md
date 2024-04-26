@@ -27,7 +27,6 @@ The widget parameters can be configured once it has been pushed to Modyo through
 + **currency-precision**: Number of digits placed after the decimal symbol (example: 2)
 + **currency-separator**: Symbol used to separate the integer part from the fractional part of a number (example: .)
 + **currency-decimal**: Symbol used to separate numbers with many digits (example: ,)
-+ **dashboard-path**: Dashboard url
 + **current-step**: Active step.
 
 ## Deployment to Modyo and CI
