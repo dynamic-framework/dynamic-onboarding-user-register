@@ -1,3 +1,37 @@
 {
-  "title": "Bienvenido a Dynamic Framework + React"
+  "otp": {
+    "title": "Enter the 6 digit code",
+    "sent": "We have sent an SMS with the verification code to the number:",
+    "sentNumber": "We send it to {number}",
+    "editNumber": "Edit number",
+    "inputHint": "Enter the code you received on your cell phone",
+    "resend": "Didn't you get any code? resend in {time}"
+  },
+  "actions": {
+    "continue": "Continue",
+    "back": "Go back",
+    "understand": "Understand"
+  },
+  "sign": {
+    "title": "{user}, let's look at the legal part first.",
+    "subtitle": "It is true that many do not read this, but we will briefly explain what the following requirements are about",
+    "privacy": "Notice of Privacy",
+    "terms": "Terms and Conditions",
+    "checkboxLabel": "I have read and accepted the legal documents"
+  },
+  "document": {
+    "count": "{current} de {total} documentos",
+    "alert": {
+      "title": "Summary of the Terms and conditions of use of the current account",
+      "subtitle": "It is a current account in pesos. The opening and maintenance have no cost"
+    },
+    "privacyTitle": "Privacy Policy",
+    "regulationTitle": "Regulation of Dynamic Bank and current account"
+  },
+  "milestone": {
+    "loadTitle": "We are creating your user...",
+    "loadSubtitle": "{user}, this could take a few seconds.",
+    "completeTitle": "{user}! We have successfully created your user",
+    "completeSubtitle": "We're glad you're here, now let's continue"
+  }
 }
