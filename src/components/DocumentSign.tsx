@@ -29,24 +29,24 @@ export default function DocumentSign() {
       <DQuickActionButton
         className={classNames({
           'mb-4 document-button': true,
-          'icon-success': privacyPolicy,
-        })}
-        line1={t('sign.terms')}
-        line2=""
-        actionIcon={privacyPolicy ? 'check-circle-fill' : 'chevron-right'}
-        representativeIcon="file-earmark-text"
-        onClick={() => navigateTo(SCREENS.privacyPolicy)}
-      />
-      <DQuickActionButton
-        className={classNames({
-          'mb-8 document-button': true,
           'icon-success': regulationDocument,
         })}
-        line1={t('sign.privacy')}
+        line1={t('sign.terms')}
         line2=""
         actionIcon={regulationDocument ? 'check-circle-fill' : 'chevron-right'}
         representativeIcon="file-earmark-text"
         onClick={() => navigateTo(SCREENS.regulationDynamic)}
+      />
+      <DQuickActionButton
+        className={classNames({
+          'mb-8 document-button': true,
+          'icon-success': privacyPolicy,
+        })}
+        line1={t('sign.privacy')}
+        line2=""
+        actionIcon={privacyPolicy ? 'check-circle-fill' : 'chevron-right'}
+        representativeIcon="file-earmark-text"
+        onClick={() => navigateTo(SCREENS.privacyPolicy)}
       />
       <DInputCheck
         id="legal"

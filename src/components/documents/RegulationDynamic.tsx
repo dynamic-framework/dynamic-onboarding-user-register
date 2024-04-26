@@ -18,7 +18,7 @@ export default function RegulationDynamic() {
   }, [navigateTo, signDocument]);
 
   return (
-    <div>
+    <div className="mb-8">
       <DButton
         className="mb-4 back-document"
         variant="link"
@@ -27,7 +27,7 @@ export default function RegulationDynamic() {
         iconStart="arrow-left"
         onClick={() => navigateTo(SCREENS.documentSign)}
       />
-      <p className="small text-gray-500 mb-6 mb-md-2">{t('document.count', { current: 2, total: 2 })}</p>
+      <p className="small text-gray-500 mb-6 mb-md-2">{t('document.count', { current: 1, total: 2 })}</p>
       <h5 className="mb-6 mb-md-4">{t('document.regulationTitle')}</h5>
       <DAlert
         type="info"
