@@ -1,10 +1,9 @@
-/* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { DButton, DInputPin } from '@dynamic-framework/ui-react';
 import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
-
 import { useState } from 'react';
+
 import useWidgetUtils from '../hooks/useWidgetUtils';
 import { SCREENS } from '../config/widgetConfig';
 import CountdownTimer from './CountdownTimer';
@@ -42,7 +41,7 @@ export default function SendOTP() {
           characters={6}
           hint={t('otp.inputHint')}
           onChange={(value) => setOtpValue(value)}
-          {...otpValue.length === 6 && { valid: true }}
+          valid={otpValue.length === 6}
         />
         <CountdownTimer />
       </div>
