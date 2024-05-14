@@ -10,7 +10,7 @@ export type WidgetState = {
 };
 
 const initialState = {
-  view: SCREENS.sendOtp,
+  view: SCREENS.documentSign,
 } as WidgetState;
 
 const slice = createSlice({
