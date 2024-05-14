@@ -1,5 +1,5 @@
-import type { ComponentProps } from 'react';
 import type { DContextProvider } from '@dynamic-framework/ui-react';
+import type { ComponentProps } from 'react';
 
 import liquidParser from '../utils/liquidParser';
 
@@ -22,7 +22,6 @@ export const CONTEXT_CONFIG = {
 } satisfies Partial<ComponentProps<typeof DContextProvider>>;
 
 export const SCREENS = {
-  sendOtp: 'otp',
   privacyPolicy: 'privacy',
   regulationDynamic: 'regulation',
   documentSign: 'sign',

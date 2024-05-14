@@ -1,13 +1,13 @@
+import { DContextProvider } from '@dynamic-framework/ui-react';
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import { DContextProvider } from '@dynamic-framework/ui-react';
 import { Provider } from 'react-redux';
 
 import './config/liquidConfig';
 import './config/i18nConfig';
 
-import store from './store/store';
 import App from './App';
+import store from './store/store';
 
 if (process.env.NODE_ENV === 'development') {
   // eslint-disable-next-line global-require

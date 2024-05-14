@@ -1,37 +1,31 @@
 @import "@dynamic-framework/ui-react/src/style/abstracts/+import";
 
-.short-view {
-  max-width: 500px;
-}
-
-.document-button {
-  --#{$prefix}quick-action-button-line1-color: var(--#{$prefix}gray-700);
-  --#{$prefix}quick-action-button-line1-font-weight: 400;
-  --#{$prefix}quick-action-button-line1-font-size: 1rem;
-  --#{$prefix}quick-action-button-representative-image-size: var(--#{$prefix}ref-spacer-6);
-
-}
-
-.icon-success {
-  --#{$prefix}quick-action-button-action-icon-color: var(--#{$prefix}success);
-  --#{$prefix}quick-action-button-active-action-icon-color: var(--#{$prefix}success);
-}
-
-.back-document {
-  --#{$prefix}btn-hover-bg: transparent;
-  --#{$prefix}btn-active-bg: transparent;
-  padding: 0;
-}
-
-.otp-input {
-  --#{$prefix}input-pin-form-control-size: 3rem;
-}
-
-@include media-breakpoint-up(md) {
-  .document-button{
-    --#{$prefix}quick-action-button-padding: var(--#{$prefix}ref-spacer-6);
+.user-register {
+  .short-view {
+    max-width: 500px;
   }
-  .otp-input{
-    --#{$prefix}input-pin-form-control-size: 4rem;
+
+  .document-button {
+    --#{$prefix}quick-action-button-line1-color: var(--#{$prefix}gray-700);
+    --#{$prefix}quick-action-button-line1-font-weight: 400;
+    --#{$prefix}quick-action-button-line1-font-size: 1rem;
+    --#{$prefix}quick-action-button-representative-image-size: var(--#{$prefix}ref-spacer-6);
+  }
+
+  .icon-success {
+    --#{$prefix}quick-action-button-action-icon-color: var(--#{$prefix}success);
+    --#{$prefix}quick-action-button-active-action-icon-color: var(--#{$prefix}success);
+  }
+
+  .back-document {
+    --#{$prefix}btn-hover-bg: transparent;
+    --#{$prefix}btn-active-bg: transparent;
+    padding: 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    .document-button{
+      --#{$prefix}quick-action-button-padding: var(--#{$prefix}ref-spacer-6);
+    }
   }
 }

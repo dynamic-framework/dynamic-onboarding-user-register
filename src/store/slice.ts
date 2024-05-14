@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-
 import type { PayloadAction } from '@reduxjs/toolkit';
+
 import { SCREENS } from '../config/widgetConfig';
 
 export type WidgetState = {
@@ -10,7 +10,7 @@ export type WidgetState = {
 };
 
 const initialState = {
-  view: SCREENS.sendOtp,
+  view: SCREENS.documentSign,
 } as WidgetState;
 
 const slice = createSlice({
