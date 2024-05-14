@@ -3,12 +3,12 @@ import {
   DInputCheck,
   DQuickActionButton,
 } from '@dynamic-framework/ui-react';
-import { useTranslation } from 'react-i18next';
 import classNames from 'classnames';
+import { useTranslation } from 'react-i18next';
 
 import { SCREENS, USER_NAME } from '../config/widgetConfig';
-import useWidgetUtils from '../hooks/useWidgetUtils';
 import useSignDocuments from '../hooks/useSignDocuments';
+import useWidgetUtils from '../hooks/useWidgetUtils';
 
 export default function DocumentSign() {
   const { t } = useTranslation();

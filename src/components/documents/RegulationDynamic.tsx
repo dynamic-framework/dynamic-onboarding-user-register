@@ -1,11 +1,11 @@
 /* eslint-disable max-len */
-import { useCallback } from 'react';
 import { DAlert, DButton } from '@dynamic-framework/ui-react';
+import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { SCREENS } from '../../config/widgetConfig';
-import useWidgetUtils from '../../hooks/useWidgetUtils';
 import useSignDocuments from '../../hooks/useSignDocuments';
+import useWidgetUtils from '../../hooks/useWidgetUtils';
 
 export default function RegulationDynamic() {
   const { navigateTo } = useWidgetUtils();

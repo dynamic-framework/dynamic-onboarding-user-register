@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-
 import type { PayloadAction } from '@reduxjs/toolkit';
+
 import { SCREENS } from '../config/widgetConfig';
 
 export type WidgetState = {

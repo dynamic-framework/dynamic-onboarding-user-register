@@ -1,11 +1,11 @@
 /* eslint-disable max-len */
-import { useCallback } from 'react';
 import { DAlert, DButton } from '@dynamic-framework/ui-react';
+import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import useWidgetUtils from '../../hooks/useWidgetUtils';
 import { SCREENS } from '../../config/widgetConfig';
 import useSignDocuments from '../../hooks/useSignDocuments';
+import useWidgetUtils from '../../hooks/useWidgetUtils';
 
 export default function PrivacyPolicy() {
   const { navigateTo } = useWidgetUtils();

@@ -1,12 +1,11 @@
 import { useDContext } from '@dynamic-framework/ui-react';
 import { useEffect, useMemo } from 'react';
 
-import RegulationDynamic from './components/documents/RegulationDynamic';
+import CreatedMilestone from './components/CreatedMilestone';
 import PrivacyPolicy from './components/documents/PrivacyPolicy';
+import RegulationDynamic from './components/documents/RegulationDynamic';
 import DocumentSign from './components/DocumentSign';
 import LoadingMilestone from './components/LoadingMilestone';
-import CreatedMilestone from './components/CreatedMilestone';
-
 import { CONTEXT_CONFIG, SCREENS } from './config/widgetConfig';
 import { useAppSelector } from './store/hooks';
 import { getView } from './store/selectors';
